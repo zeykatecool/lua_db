@@ -16,6 +16,10 @@
 local db = require("db")
 local json = require("json")
 ```
+# Download
+```git
+git clone https://github.com/zeykatecool/lua_db.git
+```
 
 # Documentation
 > Documentation is here with examples :

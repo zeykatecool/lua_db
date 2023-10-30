@@ -245,7 +245,7 @@ local GetWithDate = db.getwithdate("Key") --Returns value "Value" and date "01.0
     local f = load(db.get("MyFunction"))
     f()
    ⸻⸻⸻⸻⸻⸻
-  - If you are getting "filename not set" , you need to do this
+  - If you are getting "filename not set" error , you need to do this
     Usage:
   local filename = "data"
   db.setfile(filename)

@@ -239,10 +239,10 @@ local GetWithDate = db.getwithdate("Key") --Returns value "Value" and date "01.0
    ⸻⸻⸻⸻⸻⸻
    - You can save functions,it uses string.dump() for save
    db.set("MyFunction",function() print("Hello World") end)
-   db.get("MyFunction") -- returns function
+   db.get("MyFunction") -- returns dumped string
      Usage:
     local f = load(db.get("MyFunction"))
-    f()
+    print(f) -- function: 0000000000e75e30 (example)
    ⸻⸻⸻⸻⸻⸻
   - If you are getting "filename not set" error , you need to do this
     Usage:

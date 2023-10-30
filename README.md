@@ -14,7 +14,8 @@
   ]]--
 
 local db = require("db")
-local json = require("json")
+local setFile = db.setfile("data")
+
 ```
 # Download
 ```git

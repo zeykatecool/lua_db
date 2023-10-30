@@ -1,3 +1,7 @@
+--[[
+    This is a documentation of db.lua module.
+  ]]
+
 local db = require("db")
 
 --[[

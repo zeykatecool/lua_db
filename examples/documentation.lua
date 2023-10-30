@@ -1,4 +1,4 @@
-local db = require("dbforexamples")
+local db = require("db")
 
 --[[
     db.version() or db._VERSION()

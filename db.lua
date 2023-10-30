@@ -157,7 +157,7 @@ function db.get(key)
 
     if isDumpedString(value) then
         if type(loadFunction(value)) == "function" then
-            return loadFunction(value)
+            return value
         end
     end
 

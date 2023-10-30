@@ -21,7 +21,6 @@ local setFile = db.setfile("data")
 ```git
 git clone https://github.com/zeykatecool/lua_db.git
 ```
-
 # Documentation
 > Documentation is here with examples :
 - [documentation.lua](https://github.com/zeykatecool/lua_db/blob/main/info/documentation.lua)

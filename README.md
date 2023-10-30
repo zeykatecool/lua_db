@@ -1,6 +1,6 @@
 # lua_db
 Simple database system that uses JSON.
-> You can check [documentation.lua](https://github.com/zeykatecool/lua_db/blob/main/examples/documentation.lua) for documentation.
+> You can check [documentation.lua](https://github.com/zeykatecool/lua_db/blob/main/info/documentation.lua) for documentation.
 
 # Information
 It uses [json.lua](https://github.com/zeykatecool/lua_db/blob/main/json.lua) for converting data to JSON or Lua Table.
@@ -19,5 +19,6 @@ local json = require("json")
 ```
 
 # Documentation
+> Documentation is here with examples :
+- [documentation.lua](https://github.com/zeykatecool/lua_db/blob/main/info/documentation.lua)
 
-## [documentation.lua](https://github.com/zeykatecool/lua_db/blob/main/examples/documentation.lua)

@@ -3,7 +3,7 @@
 
 # Information
 - It uses [json.lua](https://github.com/zeykatecool/lua_db/blob/main/json.lua) for converting data to JSON or Lua Table.
-- This module is begginer friendly so u can use it easily.
+- This module is beginner friendly so u can use it easily.
 
 # How to Use
 - Its very easy to use.Add `db.lua` and `json.lua` to your project.After that , you can use db like this.

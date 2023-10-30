@@ -199,9 +199,17 @@ local GetWithDate = db.getwithdate("Key") --Returns value "Value" and date "01.0
 ]]
 
 --[[
-    Important:
+    Importants:
    - You cannot get date of save with db.get() , it returns only value of key
+    Usage:
    db.setwithdate("Key","Value")
    db.get("Key") --returns ("Value")
    db.getwithdate("Key") -- Returns "Value","01.01.2020,00:00:00"
+   ⸻⸻⸻⸻⸻⸻
+   - You can save functions,it uses string.dump() for save
+   db.set("MyFunction",function() print("Hello World") end)
+   db.get("MyFunction") -- returns function
+     Usage:
+    local f = load(db.get("MyFunction"))
+    f()
 ]]
